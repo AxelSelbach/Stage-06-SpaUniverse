@@ -1,0 +1,30 @@
+body {
+  background-image: url("/assets/bg-oUniverso.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  /* margin-left: 6.375rem; */
+  max-width: 43.75rem;
+  margin-top: 10.75rem;
+  margin-left: 6.375rem;
+}
+
+h1, p {
+  color: #E1E1E6;
+  font-family: 'Roboto', sans-serif;
+  /* text-align: center; */
+}
+
+h1 {
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+p {
+  font-size: 1.5rem;
+}
